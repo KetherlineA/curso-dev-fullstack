@@ -1,0 +1,34 @@
+body {
+    background: #454444;
+    font-family: "Raleway", sans-serif; /*aspas simples qdo a fonte tiver 2 nomes*/
+    color: rgb(255, 255, 255);
+
+}
+
+
+.photo-principal {
+    width: 200px; /*tamanho da imagem*/
+    border: 2px solid #c9bbbb; /* shorthand */
+    border-radius: 50%; /*deixa as bordas circular */ /*ou 50% 30% 40% 20% - alterando cada lado de um jeito*/
+    margin: 30px; /*top-rigth-bottom-left*/
+    padding: 10px; /*top-rigth-bottom-left*/
+    box-shadow:  2px 2px 2px #1f1c1c;
+}
+
+h1 {
+    margin-bottom: 0;
+    letter-spacing: -1px;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 35px;
+    
+}
+
+h2 {
+    margin-top: 0;
+    font-style: italic;
+    color: rgb(178, 73, 90);
+    font-weight: 100;
+    letter-spacing: 10px;
+}
+    
+ 

@@ -1,0 +1,78 @@
+*  {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+html, body {
+    height: 100%; /*isso é pra não ficar com varios gradientes*/
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    color: white;
+    background: rgb(54,77,204);
+    background: linear-gradient(90deg, rgba(54,77,204,1) 0%, rgba(19,35,124,1) 100%);
+}
+
+.avatar {
+    width: 80px;
+    border-radius: 50px;
+    border: 3px solid white; /*borda ao redor da imagem */
+    box-shadow: 0 0 20px white; /* 20px é de espalhamento, 0-horizontal 0-vertical*/
+}
+
+h1 {
+    font-family: "Architects Daughter", cursive; /*tem q colocar o link primeiro no html*/
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.profile {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social {
+    display: flex; /*para os icones dos app ficarem lado a lado*/
+    justify-content: space-around; /*só funciona com o flex*/
+    list-style: none;
+    margin: 20px 0;
+}
+
+.social img {
+    width: 33px;
+}
+
+.links-list {
+    list-style: none;
+    
+}
+
+.links-list li {
+    margin: 10px 20px; /*cima-baixo  lados*/
+    box-shadow: 0 0 10px;
+}
+
+.links-list li a {
+    background: white;
+    padding: 15px 20px; /*cima baixo - lateral*/
+    display: block;
+    border-radius: 4px;
+    text-decoration: none; /* so para remover a linha do link*/
+    color: rgb(54,77,204);
+    font-weight: bold;
+}
+
+.links-list li a span {
+    color: black;
+    display: block; /*para ir p baixo, ou usa a tag br*/
+    margin-top: 10px;
+}
+

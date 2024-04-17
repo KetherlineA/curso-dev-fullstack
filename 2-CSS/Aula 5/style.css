@@ -1,0 +1,25 @@
+body {
+    background: #454444
+}
+
+p {
+    color: rgb(255, 255, 255);
+}
+
+.photo-principal {
+    width: 200px; /*tamanho da imagem*/
+    border: 2px solid #FFFFFF; /* shorthand */
+    border-radius: 50%; /*deixa as bordas circular */ /*ou 50% 30% 40% 20% - alterando cada lado de um jeito*/
+      /*
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    o primeiro substitui esses 3, a ordem é importante 1-width/ 2-style/3-color*/
+
+    /*margin-top: 30px; 
+    margin-bottom: 100px; 
+    margin-left: 500px; */
+    margin: 30px 30px 30px 30px; /*top-rigth-bottom-left*/
+}
+    
+ 
